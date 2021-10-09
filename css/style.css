@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Kanit", sans-serif;
+  /* font-weight: 600; */
+}
+.gradient {
+  background: rgb(13, 166, 154);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 166, 154, 1) 0%,
+    rgba(39, 31, 150, 1) 96%
+  );
+}
+.navup li {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.page_header {
+  /* margin-top: 4rem; */
+  font-size: 1.25rem;
+  color: rgb(246, 246, 246);
+}
+.comp_tags {
+  user-select: none;
+}
+.company {
+  margin-top: -80px;
+}
+.feature {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+.pros h3 {
+  text-align: center;
+}
+.pros p {
+  font-size: 18px;
+  text-align: center;
+}
+.icons {
+  color: white;
+  height: 5rem;
+  width: 5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.gallery {
+  background-color: #f5f5f5;
+}
+.services {
+  margin-top: -120px;
+}
+.services p {
+  color: rgb(255, 255, 255);
+  /* font-weight: 500; */
+  font-size: 20px;
+}
+.services button {
+  color: white;
+  font-weight: 600;
+}
+.form-section {
+  margin-top: -40px;
+}
+.txtarea {
+  resize: none;
+}
+.foot {
+  margin: 0;
+  padding: 0;
+}
+.foot p {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 6px;
+  margin: 0;
+}
+.foot a {
+  color: rgb(255, 230, 0);
+  text-decoration: none;
+}
